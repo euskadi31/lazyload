@@ -10,6 +10,7 @@ global.lzld = lazyload();
 replaceGetAttribute('Image');
 replaceGetAttribute('IFrame');
 replaceGetAttribute('Div');
+replaceGetAttribute('A');
 
 function registerLazyAttr(attr) {
   if (indexOf.call(lazyAttrs, attr) === -1) {
